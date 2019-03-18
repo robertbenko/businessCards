@@ -92,12 +92,11 @@ public class BusinessCard {
         return maxLength;
     }
 
-    private ArrayList<String> getLines() {
+    public ArrayList<String> getLines() {
         ArrayList<String> lines = new ArrayList<String>();
 
         lines.add(name + " " + surname);
         lines.add("tel. " + phone + " adres: " + city);
-        lines.add("numer konta" + phone + " adres: " + city);
 
         return lines;
     }

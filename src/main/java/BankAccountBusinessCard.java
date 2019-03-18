@@ -21,7 +21,7 @@ public class BankAccountBusinessCard extends BusinessCard {
         this.bankAccount = bankAccount;
     }
 
-    private ArrayList<String> getLines() {
+    public ArrayList<String> getLines() {
         ArrayList<String> lines = new ArrayList<String>();
 
         String name = getName();
